@@ -16,6 +16,8 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
+    print('New change made for refactoring')
+
     while True:
         city = input("Would you like to see data for Chicago, New York, or Washington? ").lower()
         if city in CITY_DATA:
