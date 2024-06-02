@@ -9,6 +9,12 @@ Bike Sharing Analysis
 ### Description
 The Bikeshare Data Analysis project focuses on analyzing data from a bikeshare system to uncover meaningful insights into ridership patterns and user behavior. Utilizing python programming, this project aims to extract, clean, and analyze bikeshare data to provide valuable statistics.
 
+Technologies Used:
+1. Python
+2. Pandas
+3. Numpy
+4. Git and GitHub
+
 ### Files used
 1. bikeshare.py - Contains the python code for data analysis
 2. Data files - Contains the dataset with bikeshare information for cities: Chicago, New York and Washington (.csv files)
@@ -16,4 +22,3 @@ The Bikeshare Data Analysis project focuses on analyzing data from a bikeshare s
 
 ### Credits
 This project was completed as part of the Data Engineering nanodegree program offered by udacity.
-
