@@ -16,8 +16,6 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    print('New change made for refactoring')
-
     while True:
         city = input("Would you like to see data for Chicago, New York, or Washington? ").lower()
         if city in CITY_DATA:
@@ -238,7 +236,7 @@ def additional_questions(df):
         print("\nDay of week data not available for this city.")
  
     # 5. Busiest hours of the day for bike share usage, and comparison between cities
-    # 6. Additional question for github purpose - no code.
+    
     if 'hour' in df.columns:
         busiest_hours = df.groupby('hour').size()
         print("\nBusiest hours of the day for bike share usage (Trip counts by hour):")
