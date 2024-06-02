@@ -238,6 +238,7 @@ def additional_questions(df):
         print("\nDay of week data not available for this city.")
  
     # 5. Busiest hours of the day for bike share usage, and comparison between cities
+    # 6. Additional question for github purpose - no code.
     if 'hour' in df.columns:
         busiest_hours = df.groupby('hour').size()
         print("\nBusiest hours of the day for bike share usage (Trip counts by hour):")
